@@ -63,7 +63,7 @@ Preprocessing contohnya :
 
 
 ## How to use
-
+```
 To compile the program:
 ```
 To run the program:
@@ -74,17 +74,15 @@ $ make run
 
 
 ## JSON Structure
-Returns an array of *Food* object that contains the *id, food_name, upc, nutrients* of the food. *nutrients* is an object that resembles the *Nutrient* object that is contained in a food. 
+Returns an array of *Ticket* object that contains the information of the ticket.
 
-*Nutrient* object contains the *nutrient_name, unit, value* for a nutrient.
-
-``` 
+```
 [
   {"departure": "GMR", "arrival": "BD", "date": "0505", "type_train": "eko", "adult": "80000", "infant": "12840"}, 
-  {"departure": "GMR", "arrival": "BD", "date": "0615", "type_train": "eks", "adult": "120000", "infant": "13140"},
-  ... 
+  {"departure": "GMR", "arrival": "BD", "date": "0615", "type_train": "eks", "adult": "120000", "infant": "13140"}, 
 ]
 ```
+
 
 
 ## Screenshots
